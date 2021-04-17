@@ -1,0 +1,31 @@
+{
+  "name": "nodecc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "global.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowrishankkar/Node-CC.git"
+  },
+  "author": "Gowri Shankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gowrishankkar/Node-CC/issues"
+  },
+  "homepage": "https://github.com/gowrishankkar/Node-CC#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "nodemon": "^2.0.7",
+    "ejs": "^3.1.2",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0"
+  }
+}
